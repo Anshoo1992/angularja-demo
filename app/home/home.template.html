@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="multiply_contianer col-md-6">
+        <multiply result-callback="resultCallback"></multiply>
+  </div>
+  <div class="col-md-6 result_history">
+    <h6>Input History</h6>
+    <div class="result_list">
+      <ul>
+        <li ng-repeat="x in resultList">
+          <span>{{x.firstInput}}</span>
+          <span class="result_boder"><i class="glyphicon glyphicon-remove"></i> <span class="second_input">{{x.secondInput}}</span></span>
+          <span>{{x.result}}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</div>
