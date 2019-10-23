@@ -5,7 +5,7 @@ This project was generated with [Angular Js]
 ## Development server
 
 Running UI:
-Run `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run start` for a dev server. Navigate to `http://localhost:8000/`. The app will automatically reload if you change any of the source files.
 
 Pre : Start your mongoDb server
 
